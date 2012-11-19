@@ -1,0 +1,29 @@
+
+{
+  "name": "nM2O",
+  "description": "Node Midi to OSC translator",
+  "version": "0.0.1",
+  "homepage": "https://github.com/oierbravo/nM2O",
+
+  "repository": {
+    "type": "git", 
+    "url": "git@github.com:oierbravo/nM2O.git"
+  },
+  "author": {
+    "name": "Oier Bravo Urtasun", 
+    "url": "", 
+    "email": "oierbravo@gmail.com"
+  },
+  "dependencies": {
+    "omgosc": "*",
+    "commander": "*",
+    "midi": "*"
+    
+  },
+  "bin": { "nm2o": "./bin/nm2o" },
+  "keywords": [
+    "commandline"
+    ,"osc"
+    ,"midi"
+  ]
+}
